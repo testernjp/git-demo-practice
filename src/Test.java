@@ -12,6 +12,12 @@ public class Test {
         System.out.println("committing 4th commit : All the best");
         System.out.println("committing 4th commit : Gentleman");
         System.out.println("Message from Bhumika : interview day : well done everyone");
-    
+        print();
+    }
+
+    public static void print() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("i = " + i);
+        }
     }
 }
